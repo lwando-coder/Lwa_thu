@@ -9,8 +9,6 @@ header{
    background-size: cover;
   height: 700px;
   }
-
-
  ul{
   list-style: none;
 }
@@ -36,16 +34,14 @@ text-align: left;
 height: 200px;
   margin: 10px;
 }
-
-
-}
 #btn1{
   background-color: transparent;
   padding: 15px;
   color: white;
-  font-size: 15px;
+  font-size: 30px;
   width: 110px;
-}
+  height: 30px;
+  }
 .Arrivals{
   text-align: center;
 }
@@ -86,17 +82,16 @@ margin-top: 50px;
   font-size: 13px;
   width: 110px;
   margin-top: 50px;
-
-}
-.Buttons{
   text-align: center;
 }
-
+.Buttons{
+text-align: center;
+}
 .Our-Blog{
   background: url("../images/grass .jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 400px;
   background-position: center;
   margin-top: 50px;
 }
@@ -113,4 +108,21 @@ margin-top: 50px;
   color: white;
   text-align: center;
   padding-top: 80px;
+  font-style: italic;
+}
+.second-h2{
+  font-style: italic;
+  font-size: 20px;
+}
+h6{
+padding-top: 20px;
+}
+.list1 h4 ul{
+  font-style: italic;
+  text-align: center;
+  }
+.list2 h4 ul{
+  font-style: italic;
+text-align: center;
+background-color: lightgrey;
 }
