@@ -9,6 +9,9 @@ header{
    background-size: cover;
   height: 700px;
   }
+  .heading{
+    font-family: cursive;
+  }
  ul{
   list-style: none;
 }
@@ -16,15 +19,6 @@ header{
 display: inline-block;
 padding: 15px;
 text-align: left;
-}
-.Top {
-  border: 3px solid white;
-}
-
-.middle h3 {
-  text-align: center;
-  color: white;
-  
 }
 .site-navigation ul li a{
  color: white;
@@ -66,10 +60,6 @@ height: 200px;
   float: right;
   margin-top: -98px;
 }
-.line{
-  border:1px solid white;
-opacity: .5;
-}
 hr{
   border: 1px solid black;
 }
@@ -85,7 +75,7 @@ margin-right: 260px;
 display: grid;
  grid-template-columns: auto auto auto auto;
  text-align: center;
- margin-top: 50px;
+margin-top: 50px;
 }
 
 #blckBtn {
@@ -146,7 +136,12 @@ footer{
 }
 .Bottom ul {
 margin-left: -39px;
+
 }
 .mainlist h4{
   text-align:left;
+}
+.store h6{
+  padding-bottom: -10px;
+  margin-top: 10px;
 }
