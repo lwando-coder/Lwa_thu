@@ -1,9 +1,10 @@
 html,body{
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 header{
-  background: url("../images/pot.jpeg");
+  background-image:linear-gradient(rgba(255,255,255,.1),rgba(255,255,255,.1)), url("../images/pot.jpeg");
    background-position:center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -16,7 +17,7 @@ header{
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 25px;
 
-}
+  }
 .middle{
   margin-top: -52px;
 }
@@ -39,7 +40,6 @@ color: white;
 border: 1px solid white;
 padding: 13px;
 }
-
 .Top {
   border: 3px solid white;
   height: 50px;
@@ -58,13 +58,12 @@ color: white;
   text-align: center;
   padding-top: 200px;
   font-size: 15px;
-}
 
+}
 .tea img {
 height: 200px;
   margin: 10px;
 }
-
 #btn1{
   background-color: transparent;
   padding: 15px;
@@ -81,7 +80,7 @@ height: 200px;
 }
 .Left {
   float: left;
-  margin-top: 15px;
+  margin-top: -10px;
 }
 .Right {
   float: right;
@@ -109,20 +108,19 @@ display: grid;
 }
 
 #blckBtn {
-  background-color: black;
-  color: white;
-  padding: 15px;
-  font-size: 13px;
-  width: 110px;
-  margin-top: 50px;
   text-align: center;
-  margin-left: 50px;
+  color: white;
+  font-size: 20px;
+  background: black;
+  margin:50px;
+  padding: 20px;
 }
+
 .Buttons {
 text-align: center;
 }
 .Our-Blog{
-  background: url("../images/grass .jpeg");
+  background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)), url("../images/grass .jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
